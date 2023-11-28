@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1683663694 source:c:\users\lenovo\desktop\basyuvba\final_steg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

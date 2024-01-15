@@ -18,12 +18,12 @@ public class ServerThread implements Runnable
     public ServerThread(Socket socket)
     {
         this.socket = socket;
-        accounts = new ArrayList<>();
+        accounts = new ArrayList<>()
         {{
             add(new Account("123456789", 1234, 100));
             add(new Account("987654321", 4321, 10000));
             add(new Account("111111111", 1111, 1000));
-        }}
+        }};
         sessionData = new HashMap<Data, Object>();
     }
 
